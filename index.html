@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>One STOP Shop:BUY</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="top-nav-bar">
+    <div class="search-box">
+      <i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+      <i class="fa fa-times" id="close-btn" onclick="closemenu()"></i>
+    <img src="images/logo2.ico" class="blogo">
+       <input type="text" class="form-control">
+       <span class="input-group-text"><i class="fa fa-search"></i></span>
+     </div>
+     <div class="menu-bar">
+       <ul>
+         <li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+         <li><a href="#">Sign Up</a></li>
+         <li><a href="#">Log In</a></li>
+       </ul>
+     </div>
+<section class="header">
+   <div class="side-menu" id="side-menu">
+     <ul>
+       <li>On Sale<i class="fa fa-angle-right"></i>
+       <ul>
+       <li>Best of Kurtas & Kurta sets At Min.60% Off</li>
+       <li>MIn.40% Off On Fragnances</li>
+       <li>Up to 60% Off On Best Of Make-Up</li>
+       <li>40%-70% Off On Flip-Flops</li>
+       </ul>
+       </li>
+       <li>Mobiles<i class="fa fa-angle-right"></i>
+       <ul>
+       <li>Apple</li>
+       <li>Samsung</li>
+       <li>Oppo</li>
+       <li>One Plus</li>
+       </ul>
+       </li>
+       <li>Computers<i class="fa fa-angle-right"></i>
+       <ul>
+       <li>Dell</li>
+       <li>Acer</li>
+       <li>Hp</li>
+       <li>Apple Macbook</li>
+       </ul>
+       </li>
+       <li>Books<i class="fa fa-angle-right"></i>
+        <ul>
+         <li>Fantasy</li>
+         <li>Sci-Fi</li>
+         <li>Mystery</li>
+         <li>Thriller</li>
+         </ul>
+       </li>
+       <li>Fitness<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Gym-Cycles</li>
+         <li>Dumbles</li>
+         <li>Treadmills</li>
+         <li>Exercise Bikes</li>
+         </ul>
+       </li>
+       <li>Baby Care<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Feeding Supplies</li>
+         <li>Diapers & Wipes</li>
+         <li>Bath & Skin Care</li>
+         <li>Baby Gear</li>
+         </ul>
+       </li>
+       <li>Beauty & Luxury Beauty<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Skincare</li>
+         <li>Haircare</li>
+         <li>Fragnances</li>
+         <li>Makeup Kits & Accessories</li>
+         </ul>
+       </li>
+       <li>Pet Supplies<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Dogs</li>
+         <li>Cats</li>
+         <li>Birds</li>
+         <li>Fish & Aquatics</li>
+         </ul>
+       </li>
+       <li>Electronics & Accessories<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Headphones</li>
+         <li>Smart Watches</li>
+         <li>Cameras</li>
+         <li>Tablets</li>
+         </ul>
+       </li>
+       <li>Tv, Appliances<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Televisions</li>
+         <li>Air Conditioners</li>
+         <li>Refrigerators</li>
+         <li>Washiing Machines</li>
+         </ul>
+       </li>
+       <li>Home & Kitchen<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Tableware</li>
+         <li>Cooking essentials</li>
+         <li>Kithcen Storage</li>
+         <li>Kitchen Appliances</li>
+         </ul>
+       </li>
+       <li>Furniture<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Bedroom</li>
+         <li>Living Room</li>
+         <li>Study Room</li>
+         <li>Dining Room</li>
+         </ul>
+       </li>
+       <li>Grocery & Gourmet<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Bevereges</li>
+         <li>Breakfast essentials</li>
+         <li>Choclates and Sweets</li>
+         <li>Dry Fruits & Snacks</li>
+         </ul>
+
+       </li>
+       <li>Men's Fashion<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>T-shirts & Polos</li>
+         <li>Trousers</li>
+         <li>Shirts</li>
+         <li>Sportswear</li>
+         </ul>
+       </li>
+       <li>Women's Fashion<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Kurtas</li>
+         <li>Sarees</li>
+         <li>Tops & Tees</li>
+         <li>Scarves & Stoles</li>
+         </ul>
+       </li>
+       <li>Kids' Fashion<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Boys' Clothing</li>
+         <li>Girls' Clothing</li>
+         <li>Baby Clothing</li>
+         <li>Footwear</li>
+         </ul>
+       </li>
+       <li>Health & Household<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Sports Supplements</li>
+         <li>Vitamins</li>
+         <li>Laundry Essentials</li>
+         <li>Household Cleaners</li>
+         </ul>
+       </li>
+       <li>Toys & Games<i class="fa fa-angle-right"></i>
+         <ul>
+         <li>Bikes, Trikes & Ride-Ons</li>
+         <li>Dolls & Accessories</li>
+         <li>Electronic Toys</li>
+         <li>Action & Toy Figures</li>
+         </ul>
+       </li>
+    </ul>
+
+<!-----------slider----------->
+   </div>
+   <div class="slider">
+     <div class="container">
+     <div id="slider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="images/img_1.jpg" class="d-block w-100">
+     </div>
+     <div class="carousel-item">
+       <img src="images/img_2.jpg" class="d-block w-100">
+     </div>
+     <div class="carousel-item">
+       <img src="images/img_3.jpg" class="d-block w-100">
+     </div>
+     <div class="carousel-item">
+       <img src="images/img_4.jpg" class="d-block w-100">
+     </div>
+   </div>
+   <ol class="carousel-indicators">
+    <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+    <button data-bs-target="#slider" data-bs-slide-to="1" ></li>
+    <button data-bs-target="#slider" data-bs-slide-to="2" ></li>
+    <button data-bs-target="#slider" data-bs-slide-to="3" ></li>
+  </ol>
+   </div>
+   </div>
+   </div>
+</section>
+
+
+
+<section class="featured-categories">
+<div class="container">
+  <div class="row">
+   <div class="col-md-4">
+     <a href="watches.html"><img src="images/cat_img_1.jpg"></a>
+   </div>
+   <div class="col-md-4">
+     <a href="shoes.html"><img src="images/cat_img_2.jpg"></a>
+   </div>
+   <div class="col-md-4">
+     <a href="hset.html"><img src="images/cat_img_3.jpg"></a>
+   </div>
+</div>
+</div>
+</section>
+
+
+<section class="on-sale">
+  <div class="container">
+    <div class="title-box">
+      <h2>New Arrivals</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="product.html"><img src="images/p_11.webp"></a>
+          <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+               <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+               <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+               <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+           <h3>Women Blue Solid Denim Jacket</h3>
+           <h5>Rs.699.00</h5>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="product2.html"><img src="images/product_2.jpg"></a>
+          <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+               <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+               <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+               <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+           <h3>Silver-Plated & Pink Oxidised Jhumkas</h3>
+           <h5>Rs.399.00</h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="product3.html"><img src="images/product_3.webp"></a>
+          <div class="overlay-right">
+            <button type="button" class="btn btn-secondary" title="Quick Shop">
+               <i class="fa fa-eye"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+               <i class="fa fa-heart-o"></i>
+            </button>
+            <button type="button" class="btn btn-secondary" title="Add to Cart">
+               <i class="fa fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+        <div class="product-bottom text-center">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+           <h3>Men Black QUEST 3 Running Shoes</h3>
+           <h5>Rs.5695.00</h5>
+        </div>
+       </div>
+
+       <div class="col-md-3">
+         <div class="product-top">
+           <a href="product4.html"><img src="images/product_4.webp"></a>
+           <div class="overlay-right">
+             <button type="button" class="btn btn-secondary" title="Quick Shop">
+                <i class="fa fa-eye"></i>
+             </button>
+             <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                <i class="fa fa-heart-o"></i>
+             </button>
+             <button type="button" class="btn btn-secondary" title="Add to Cart">
+                <i class="fa fa-shopping-cart"></i>
+             </button>
+           </div>
+         </div>
+         <div class="product-bottom text-center">
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+           <i class="fa fa-star"></i>
+            <h3>Men Black & Brown Solid Reversible Leather Belt</h3>
+            <h5>Rs.899.00</h5>
+         </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="new-products">
+  <div class="container">
+    <div class="title-box">
+      <h2>Biggest Deals</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="brand1.html"><img src="images/brand_1.webp"></a>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="brand2.html"><img src="images/brand_2.webp"></a>
+        </div>
+      </div>
+
+
+      <div class="col-md-3">
+        <div class="product-top">
+          <a href="brand3.html"><img src="images/brand_3.webp"></a>
+        </div>
+       </div>
+
+
+       <div class="col-md-3">
+         <div class="product-top">
+           <a href="brand4.html"><img src="images/brand_4.webp"></a>
+         </div>
+        </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<!------------------Website features------------------------>
+<section class="website features"></section>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 feature-box">
+      <img src="images/f_img_1.jpg">
+      <div class="feature-text">
+        <p><strong>100% Original items</strong> are available at company</p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/f_img_2.png">
+      <div class="feature-text">
+        <p><strong>Return within 30 days</strong> of receiving your order. </p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/f_img_3.png">
+      <div class="feature-text">
+        <p><strong>Get free delivery for every</strong> order on more than price</p>
+      </div>
+    </div>
+    <div class="col-md-3 feature-box">
+      <img src="images/f_img_4.jpg">
+      <div class="feature-text">
+        <p><strong>Pay Online through multiple</strong> options(card/Net banking)</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------Footer------------------->
+<section class="footer">
+<div class="container text-center">
+<div class="row">
+  <div class="col-md-3">
+    <h1>Useful Links</h1>
+    <p>Privacy Policy</p>
+    <p>Terms of Use</p>
+    <p>Return Policy</p>
+    <p>Discount Coupons</p>
+  </div>
+
+  <div class="col-md-3">
+    <h1>Company</h1>
+    <p>About Us</p>
+    <p>Contact Us</p>
+    <p>Career</p>
+    <p>Affiliate</p>
+  </div>
+
+  <div class="col-md-3">
+    <h1>Follow Us On</h1>
+    <p><i class="fa fa-facebook-official"></i >Facebook</p>
+    <p><i class="fa fa-youtube-play"></i>Youtube</p>
+    <p><i class="fa fa-linkedin"></i>Linkedin</p>
+    <p><i class="fa fa-twitter"></i>Twitter</p>
+  </div>
+
+  <div class="col-md-3 footer-image">
+    <h1>Download App</h1>
+    <img src="images/d_app_img.jpg">
+  </div>
+
+</div>
+</div>
+</section>
+
+
+
+<script>
+   function openmenu(){
+     document.getElementById("side-menu").style.display="block";
+     document.getElementById("menu-btn").style.display="none";
+     document.getElementById("close-btn").style.display="block";
+   }
+   function closemenu(){
+     document.getElementById("side-menu").style.display="none";
+     document.getElementById("menu-btn").style.display="block";
+     document.getElementById("close-btn").style.display="none";
+   }
+
+</script>
+
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
